@@ -35,3 +35,7 @@ execute pathogen#infect()
 
 " filetype plugin indent on
 filetype plugin on
+
+source ~/.vim/vcomments.vim
+map <C-a> :call Comment()<CR>
+map <C-b> :call Uncomment()<CR>
