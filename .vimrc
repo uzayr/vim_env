@@ -22,6 +22,9 @@ set cursorline
 " show the matching part of the pair for [] {} and ()
 set showmatch
 
+" show column and line number
+set ruler
+
 " enable all Python syntax highlighting features
 let python_highlight_all = 1
 
